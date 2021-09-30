@@ -1,0 +1,18 @@
+.quote {
+  text-align: center;
+  padding-inline: 1.5rem;
+  padding-block-end: 12.5rem;
+}
+.quote-content h2 {
+  margin-block-end: 2.5rem;
+}
+.float-text {
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  .float-text {
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+  }
+}

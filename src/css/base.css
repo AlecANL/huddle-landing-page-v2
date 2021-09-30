@@ -1,0 +1,54 @@
+:root {
+  --headingFont: 'Poppins', sans-serif;
+  --bodyFont: 'Open Sans', sans-serif;
+  --mobile-headline1Bold: 600 1.5rem / 2.25rem var(--headingFont);
+  --mobile-body1Regular: 400 1rem / 1.5rem var(--bodyFont);
+  --mobile-body2Regular: 400 0.875rem / 1.3125rem var(--bodyFont);
+  --mobile-headline3Bold: 600 1.25rem / 1.875rem var(--headingFont);
+  --mobile-buttonBold: 700 0.75rem / 1rem var(--bodyFont);
+  --desktop-headline1Bold: 600 2.5rem / 3.75rem var(--headingFont);
+  --desktop-body1Regular: 400 1.125rem / 1.6875rem var(--bodyFont);
+  --desktop-body2Regular: 400 1.125rem / 1.6875rem var(--bodyFont);
+  --desktop-headline3Bold: 600 1.75rem / 2.625rem var(--headingFont);
+  --desktop-buttonBold: 700 0.875rem / 1.25rem var(--bodyFont);
+  --bg-hero: #edfbff;
+  --just-white: #fff;
+  --just-black: #00252e;
+  --just-grey: #808e9a;
+  --just-pink: #ff52c1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bodyFont);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: var(--headingFont);
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-family: var(--bodyFont);
+}
+img {
+  max-inline-size: 100%;
+}
+.wrapper {
+  max-inline-size: 1232px;
+  margin: auto;
+}
